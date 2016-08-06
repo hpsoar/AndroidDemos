@@ -16,6 +16,8 @@
 -->
 
 <resources>
+    <string name="app_name">ActionBarShareAction</string>
+    <string name="module_name">ActionBarShareAction</string>
     <string name="intro_message">
         <![CDATA[
         
