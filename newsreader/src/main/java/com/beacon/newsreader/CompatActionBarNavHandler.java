@@ -19,7 +19,6 @@ package com.beacon.newsreader;
 import android.support.v7.app.ActionBar.OnNavigationListener;
 import android.support.v7.app.ActionBar.Tab;
 import android.support.v7.app.ActionBar.TabListener;
-import android.app.FragmentTransaction;
 
 /**
  * Adapter for action bar navigation events.
