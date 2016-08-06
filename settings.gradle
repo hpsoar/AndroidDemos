@@ -1,1 +1,1 @@
-include ':app', ':newsreader', ':newsreader', ':listpopupmenu', ':actionbarshareaction'
+include ':app', ':newsreader', ':newsreader', ':listpopupmenu', ':actionbarshareaction', ':navigationdrawer'
