@@ -59,7 +59,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
 
         // Set content view (which contains a CheeseListFragment)
-        setContentView(R.layout.shareaction_demo_main);
+        setContentView(com.beacon.actionbarshareaction.R.layout.simple_main);
 
         // Retrieve the ViewPager from the content view
         ViewPager vp = (ViewPager) findViewById(R.id.viewpager);
