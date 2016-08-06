@@ -91,6 +91,7 @@ class Example {
                 new Example("Navigation Drawer", com.beacon.navigationdrawer.MainActivity.class),
                 new Example("RecyclerView", com.beacon.recyclerview.recyclerview.MainActivity.class),
                 new Example("CardView", com.beacon.cardview.CardViewActivity.class),
+                new Example("Float Action Button Basic", com.beacon.floatactionbuttonbasic.floatingactionbuttonbasic.MainActivity.class),
         };
     }
 }

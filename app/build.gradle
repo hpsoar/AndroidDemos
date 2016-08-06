@@ -35,7 +35,7 @@ dependencies {
     compile project(':navigationdrawer')
     compile project(':recyclerview')
     compile project(':cardview')
-    //compile project(':floatactionbuttonbasic')
+    compile project(':floatactionbuttonbasic')
 
 
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
