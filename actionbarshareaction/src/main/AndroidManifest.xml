@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.beacon.actionbarshareaction">
+
+    <application android:allowBackup="true" android:label="@string/app_name"
+        android:supportsRtl="true">
+    <activity android:name=".MainActivity">
+        <intent-filter>
+            <action android:name="com.beacon.actionbarshareaction.MainActivity"></action>
+            <category android:name="android.intent.category.DEFAULT"></category>
+        </intent-filter>
+    </activity>
+        <!-- ContentProvider which serves files from this application's asset folder -->
+        <provider
+            android:name=".content.AssetProvider"
+            android:authorities="com.beacon.actionbarshareaction"
+            android:grantUriPermissions="true"
+            android:exported="true" />
+
+    </application>
+
+</manifest>

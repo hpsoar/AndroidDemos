@@ -87,6 +87,7 @@ class Example {
         return new Example[] {
                 new Example("News Reader", NewsReaderActivity.class),
                 new Example("List Popup Menu", ListPopupMenuActivity.class),
+                new Example("Action Bar Share Action", com.beacon.actionbarshareaction.MainActivity.class)
         };
     }
 }
