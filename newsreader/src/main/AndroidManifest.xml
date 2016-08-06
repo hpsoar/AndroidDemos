@@ -13,6 +13,12 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".ArticleActivity">
+            <intent-filter>
+                <action android:name="com.beacon.newsreader.ArticleActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
