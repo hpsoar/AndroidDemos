@@ -26,7 +26,6 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
-import com.beacon.listpopupmenu.R;
 
 /**
  * This ListFragment displays a list of cheeses, with a clickable view on each item whichs displays
@@ -87,11 +86,10 @@ public class PopupListFragment extends ListFragment implements View.OnClickListe
         popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem menuItem) {
-                switch (menuItem.getItemId()) {
-                    case R.id.menu_remove:
-                        // Remove the item from the adapter
-                        adapter.remove(item);
-                        return true;
+                if (menuItem.getItemId() == R.id.menu_remove) {
+                    // Remove the item from the adapter
+                    adapter.remove(item);
+                    return true;
                 }
                 return false;
             }
