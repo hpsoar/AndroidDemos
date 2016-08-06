@@ -1,16 +1,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.beacon.listpopupmenu">
+    package="com.beacon.cardview">
 
     <application
         android:allowBackup="true"
         android:label="@string/app_name"
         android:supportsRtl="true">
-        <activity android:name=".ListPopupMenuActivity"
-            android:label="@string/module_name">
+        <activity android:name=".CardViewActivity" android:label="@string/module_name">
             <intent-filter>
-                <action android:name="com.beacon.newsreader.ListPopupMenuActivity" />
-
-                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="com.beacon.cardview.CardViewActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
     </application>

@@ -90,6 +90,7 @@ class Example {
                 new Example("Action Bar Share Action", com.beacon.actionbarshareaction.MainActivity.class),
                 new Example("Navigation Drawer", com.beacon.navigationdrawer.MainActivity.class),
                 new Example("RecyclerView", com.beacon.recyclerview.recyclerview.MainActivity.class),
+                new Example("CardView", com.beacon.cardview.CardViewActivity.class),
         };
     }
 }
