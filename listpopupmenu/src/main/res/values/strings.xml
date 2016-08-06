@@ -1,0 +1,4 @@
+<resources>
+    <string name="menu_remove">Remove</string>
+    <string name="content_open_popup">Open Popup Menu</string>
+</resources>

@@ -8,8 +8,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 
+import com.beacon.listpopupmenu.ListPopupMenuActivity;
 import com.beacon.newsreader.NewsReaderActivity;
-import com.beacon.androiddemos.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -41,9 +41,7 @@ public class ExampleListFragment extends ListFragment implements AdapterView.OnI
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        mExamples = new Example[] {
-            new Example("News Reader", NewsReaderActivity.class),
-        };
+        mExamples = Example.examples();
 
         List<String> exampleTitles = Example.exampleTitles(Arrays.asList(mExamples));
         mListAdapter = new ArrayAdapter(getActivity(), R.layout.example_item,
@@ -83,5 +81,12 @@ class Example {
             titles.add(example.name);
         }
         return titles;
+    }
+
+    static Example[] examples() {
+        return new Example[] {
+                new Example("News Reader", NewsReaderActivity.class),
+                new Example("List Popup Menu", ListPopupMenuActivity.class),
+        };
     }
 }
