@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.beacon.activityscenetransitionbasic">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+    <activity android:name=".activityscenetransitionbasic.MainActivity">
+        <intent-filter>
+            <action android:name="com.beacon.activityscenetransitionbasic.MainActivity"/>
+            <category android:name="android.intent.category.DEFAULT"/>
+        </intent-filter>
+    </activity>
+        <activity android:name=".activityscenetransitionbasic.DetailActivity">
+
+        </activity>
+    </application>
+
+</manifest>

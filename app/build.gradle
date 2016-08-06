@@ -25,6 +25,7 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'com.android.support:support-v4:23.4.0'
@@ -36,9 +37,7 @@ dependencies {
     compile project(':recyclerview')
     compile project(':cardview')
     compile project(':floatactionbuttonbasic')
-
-
-    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile project(':activityscenetransitionbasic')
 }
 repositories {
     mavenCentral()

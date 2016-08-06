@@ -92,6 +92,7 @@ class Example {
                 new Example("RecyclerView", com.beacon.recyclerview.recyclerview.MainActivity.class),
                 new Example("CardView", com.beacon.cardview.CardViewActivity.class),
                 new Example("Float Action Button Basic", com.beacon.floatactionbuttonbasic.floatingactionbuttonbasic.MainActivity.class),
+                new Example("Activity Transition Basic", com.beacon.activityscenetransitionbasic.activityscenetransitionbasic.MainActivity.class),
         };
     }
 }
