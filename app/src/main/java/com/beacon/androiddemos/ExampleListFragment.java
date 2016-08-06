@@ -89,6 +89,7 @@ class Example {
                 new Example("List Popup Menu", ListPopupMenuActivity.class),
                 new Example("Action Bar Share Action", com.beacon.actionbarshareaction.MainActivity.class),
                 new Example("Navigation Drawer", com.beacon.navigationdrawer.MainActivity.class),
+                new Example("RecyclerView", com.beacon.recyclerview.recyclerview.MainActivity.class),
         };
     }
 }
